@@ -28,6 +28,8 @@ class CreateCalendarTables extends Migration
 			$table->string('fc')->nullable();
 			$table->integer('fc_character_id')->nullable();
 			$table->boolean('is_cancelled')->default(false);
+			$table->boolean('is_public')->default(true);
+
 			$table->nullableTimestamps();
 
 			$table->foreign('user_id')
@@ -68,7 +70,8 @@ class CreateCalendarTables extends Migration
 			$table->increments('id');
 			
 			$table->boolean('slack_integration');
-			$table->string('slack_webhook');
+            $table->string('slack_webhook');
+            $table->string('slack_webhook_public');
 			$table->string('slack_emoji_importance_full');
 			$table->string('slack_emoji_importance_half');
 			$table->string('slack_emoji_importance_empty');

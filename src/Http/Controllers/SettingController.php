@@ -26,7 +26,8 @@ class SettingController extends Controller
 		$settings = Setting::all()->first();
 
 		$settings->slack_integration = $request->slack_integration == 1 ? 1 : 0;
-		$settings->slack_webhook = $request->slack_webhook;
+        $settings->slack_webhook = $request->slack_webhook;
+        $settings->slack_webhook_public = $request->slack_webhook_public;
 		$settings->slack_emoji_importance_full = $request->slack_emoji_importance_full;
 		$settings->slack_emoji_importance_half = $request->slack_emoji_importance_half;
 		$settings->slack_emoji_importance_empty = $request->slack_emoji_importance_empty;

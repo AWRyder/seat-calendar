@@ -14,6 +14,7 @@ class Setting extends Model
 	protected $fillable = [
 		'slack_integration',
 		'slack_webhook', 
+		'slack_webhook_public',
 		'slack_emoji_importance_full',
 		'slack_emoji_importance_half',
 		'slack_emoji_importance_empty'

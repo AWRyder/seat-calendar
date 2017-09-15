@@ -28,6 +28,7 @@ class Operation extends Model
 		'staging_sys_id',
 		'staging_info',
 		'is_cancelled',
+        'is_public',
 		'fc',
 		'fc_character_id'
 	];
