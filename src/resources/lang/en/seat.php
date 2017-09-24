@@ -141,4 +141,5 @@ return [
     'direct_link' => 'Direct link',
 
     'is_public' => 'Is Public',
+    'webhook_public' => 'Pub Webhook',
 ];
