@@ -72,7 +72,8 @@ class OperationController extends Controller
 		$this->validate($request, [
 			'title' => 'required',
 			'importance' => 'required|between:0,5',
-			'known_duration' => 'required',
+            'known_duration' => 'required',
+            'is_public' => 'required',
 			'time_start' => 'required_without_all:time_start_end|date|after_or_equal:today',
 			'time_start_end' => 'required_without_all:time_start'
 		]);
@@ -95,6 +96,9 @@ class OperationController extends Controller
 			$operation->start_at = Carbon::parse($dates[0]);
 			$operation->end_at = Carbon::parse($dates[1]);
 		}
+
+        $operation->is_public = $request->is_public == "yes"?true:false;
+
 		$operation->start_at = Carbon::parse($operation->start_at);
 
 		if ($request->importance == 0)
@@ -115,6 +119,7 @@ class OperationController extends Controller
 			'title' => 'required',
 			'importance' => 'required|between:0,5',
 			'known_duration' => 'required',
+            'is_public' => 'required',
 			'time_start' => 'required_without_all:time_start_end|date|after_or_equal:today',
 			'time_start_end' => 'required_without_all:time_start'
 		]);
@@ -149,6 +154,9 @@ class OperationController extends Controller
 				$operation->start_at = Carbon::parse($dates[0]);
 				$operation->end_at = Carbon::parse($dates[1]);
 			}
+
+            $operation->is_public = $request->is_public == "yes"?true:false;
+
 			$operation->start_at = Carbon::parse($operation->start_at);
 
 			if ($request->importance == 0)
