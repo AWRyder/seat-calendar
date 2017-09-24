@@ -48,18 +48,29 @@
 						</div>
 					</div>
 
-					<div class="form-group row">
-						<label class="col-sm-2 col-form-label" for="type">{{ trans('calendar::seat.known_duration') }}</label>
-						<div class="col-sm-10">
-							<label class="radio-inline">
-								<input type="radio" name="known_duration" id="known_duration1" value="yes"> {{ trans('calendar::seat.yes') }}
-							</label>
-							<label class="radio-inline">
-								<input type="radio" name="known_duration" id="known_duration2" value="no" checked> {{ trans('calendar::seat.no') }}
-							</label>
-						</div>
-					</div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label" for="type">{{ trans('calendar::seat.known_duration') }}</label>
+                        <div class="col-sm-10">
+                            <label class="radio-inline">
+                                <input type="radio" name="known_duration" id="known_duration1" value="yes"> {{ trans('calendar::seat.yes') }}
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="known_duration" id="known_duration2" value="no" checked> {{ trans('calendar::seat.no') }}
+                            </label>
+                        </div>
+                    </div>
 
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label" for="type">{{ trans('calendar::seat.is_public') }}</label>
+                        <div class="col-sm-10">
+                            <label class="radio-inline">
+                                <input type="radio" name="is_public" id="is_public" value="yes"> {{ trans('calendar::seat.yes') }}
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="is_public" id="is_public" value="no" checked> {{ trans('calendar::seat.no') }}
+                            </label>
+                        </div>
+                    </div>
 
 					<div class="form-group row datepicker">
 						<label class="col-sm-2 col-form-label">{{ trans('calendar::seat.starts_at') }} *</label>
