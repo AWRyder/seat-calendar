@@ -143,6 +143,6 @@ class Operation extends Model
 
 	public function routeNotificationForSlack()
     {
-		return Settings::get('slack_webhook');
+		return $this->is_public == true ? Settings::get('slack_webhook_public') : Settings::get('slack_webhook');
     }
 }
