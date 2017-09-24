@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b3313aee-803b-4e9e-b295-6f394fa1a6b6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Helpers/Helper.php" afterPath="$PROJECT_DIR$/src/Helpers/Helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/Operation.php" afterPath="$PROJECT_DIR$/src/Models/Operation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/views/operation/includes/modals/update_operation.blade.php" afterPath="$PROJECT_DIR$/src/resources/views/operation/includes/modals/update_operation.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,31 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017_02_01_093144_create_calendar_tables.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/database/migrations/2017_02_01_093144_create_calendar_tables.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="73" column="51" lean-forward="true" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="OperationCancelled.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Notifications/OperationCancelled.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
               <caret line="27" column="73" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017_28_04_182100_alter_calendar_operations_SDE.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/database/migrations/2017_28_04_182100_alter_calendar_operations_SDE.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,11 +75,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Helper.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Helper.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Helpers/Helper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
+            <state relative-caret-position="110">
               <caret line="45" column="102" lean-forward="false" selection-start-line="45" selection-start-column="102" selection-end-line="45" selection-end-column="102" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update_operation.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resources/views/operation/includes/modals/update_operation.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="562">
+              <caret line="76" column="26" lean-forward="false" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_operation.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/views/operation/includes/modals/create_operation.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="62" column="20" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="72" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -164,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/resources/lang/en/seat.php" />
         <option value="$PROJECT_DIR$/src/Models/Operation.php" />
         <option value="$PROJECT_DIR$/src/Helpers/Helper.php" />
+        <option value="$PROJECT_DIR$/src/resources/views/operation/includes/modals/update_operation.blade.php" />
       </list>
     </option>
   </component>
@@ -1076,12 +1076,12 @@
       <workItem from="1505497488237" duration="2560000" />
       <workItem from="1505516083065" duration="1387000" />
       <workItem from="1505992042121" duration="47000" />
-      <workItem from="1506256046553" duration="3826000" />
+      <workItem from="1506256046553" duration="4359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7917000" />
+    <option name="totallyTimeSpent" value="8450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="2514" height="1092" extended-state="0" />
@@ -1128,14 +1128,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Models/Operation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="49" column="35" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/database/migrations/2017_02_01_093144_create_calendar_tables.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1104">
@@ -1157,7 +1149,7 @@
         <state relative-caret-position="288">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#54#83#0#PHP" expanded="true" />
+            <element signature="e#54#83#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1239,7 +1231,7 @@
         <state relative-caret-position="288">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#54#83#0#PHP" expanded="true" />
+            <element signature="e#54#83#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1305,7 +1297,7 @@
         <state relative-caret-position="288">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#54#83#0#PHP" expanded="true" />
+            <element signature="e#54#83#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1370,7 +1362,7 @@
         <state relative-caret-position="288">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#54#83#0#PHP" expanded="true" />
+            <element signature="e#54#83#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1427,16 +1419,8 @@
         <state relative-caret-position="224">
           <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/views/operation/includes/modals/create_operation.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1538,8 +1522,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Helpers/Helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
+        <state relative-caret-position="110">
           <caret line="45" column="102" lean-forward="false" selection-start-line="45" selection-start-column="102" selection-end-line="45" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/views/operation/includes/modals/create_operation.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="62" column="20" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="72" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/views/operation/includes/modals/update_operation.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="76" column="26" lean-forward="false" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
           <folding />
         </state>
       </provider>
