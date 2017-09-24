@@ -97,6 +97,10 @@ class Operation extends Model
 		return $this->diffToHumanFormat(Carbon::now('UTC'), $this->end_at);
 	}
 
+	public function getStagingSystem() {
+	    return $this->staging_sys;
+    }
+
 	public function getStartedAttribute() {
 		return $this->diffToHumanFormat($this->start_at, Carbon::now('UTC'));
 	}

@@ -43,7 +43,7 @@ class Helper
 		$fields = array();
 
 		$fields[trans('calendar::seat.starts_at')] = $op->start_at->format('F j @ H:i EVE');
-		$fields[trans('calendar::seat.duration')] = $op->getDurationAttribute() ? $op->getDurationAttribute() : trans('calendar::seat.unknown');
+		$fields[trans('calendar::seat.staging_sys')] = $op->getStagingSystem() ? $op->getStagingSystem() : trans('calendar::seat.unknown');
 
 		$fields[trans('calendar::seat.importance')] = self::ImportanceAsEmoji($op->importance, Settings::get('slack_emoji_importance_full'), Settings::get('slack_emoji_importance_half'), Settings::get('slack_emoji_importance_empty'));
 
