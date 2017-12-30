@@ -67,6 +67,30 @@
                         </div>
                     </div>
 
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label" for="type">{{ trans('calendar::seat.is_indy') }}</label>
+                        <div class="col-sm-10">
+                            <label class="radio-inline">
+                                <input type="radio" name="is_indy" id="is_indy" value="yes"> {{ trans('calendar::seat.yes') }}
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="is_indy" id="is_indy" value="no" checked> {{ trans('calendar::seat.no') }}
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label" for="type">{{ trans('calendar::seat.is_training') }}</label>
+                        <div class="col-sm-10">
+                            <label class="radio-inline">
+                                <input type="radio" name="is_training" id="is_training" value="yes"> {{ trans('calendar::seat.yes') }}
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="is_training" id="is_training" value="no" checked> {{ trans('calendar::seat.no') }}
+                            </label>
+                        </div>
+                    </div>
+
 					{{-- Operation duration --}}
 					<div class="form-group">
 						<label for="known_duration" class="col-sm-3 control-label">{{ trans('calendar::seat.known_duration') }}</label>

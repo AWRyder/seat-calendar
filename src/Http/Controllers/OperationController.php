@@ -74,6 +74,8 @@ class OperationController extends Controller
 			'importance' => 'required|between:0,5',
             'known_duration' => 'required',
             'is_public' => 'required',
+            'is_indy' => 'required',
+            'is_training' => 'required',
 			'time_start' => 'required_without_all:time_start_end|date|after_or_equal:today',
 			'time_start_end' => 'required_without_all:time_start'
 		]);
@@ -98,6 +100,8 @@ class OperationController extends Controller
 		}
 
         $operation->is_public = $request->is_public == "yes"?true:false;
+        $operation->is_indy = $request->is_indy == "yes"?true:false;
+        $operation->is_training = $request->is_training == "yes"?true:false;
 
 		$operation->start_at = Carbon::parse($operation->start_at);
 
@@ -120,6 +124,8 @@ class OperationController extends Controller
 			'importance' => 'required|between:0,5',
 			'known_duration' => 'required',
             'is_public' => 'required',
+            'is_indy' => 'required',
+            'is_training' => 'required',
 			'time_start' => 'required_without_all:time_start_end|date|after_or_equal:today',
 			'time_start_end' => 'required_without_all:time_start'
 		]);
@@ -156,6 +162,8 @@ class OperationController extends Controller
 			}
 
             $operation->is_public = $request->is_public == "yes"?true:false;
+            $operation->is_indy = $request->is_indy == "yes"?true:false;
+            $operation->is_training = $request->is_training == "yes"?true:false;
 
 			$operation->start_at = Carbon::parse($operation->start_at);
 

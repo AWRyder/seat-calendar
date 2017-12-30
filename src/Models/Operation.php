@@ -29,6 +29,8 @@ class Operation extends Model
 		'staging_info',
 		'is_cancelled',
         'is_public',
+        'is_indy',
+        'is_training',
 		'fc',
 		'fc_character_id'
 	];
@@ -147,6 +149,16 @@ class Operation extends Model
 
 	public function routeNotificationForSlack()
     {
-		return $this->is_public == true ? Settings::get('slack_webhook_public') : Settings::get('slack_webhook');
+        if ( $this->is_public ) {
+            return Settings::get('slack_webhook_public');
+        } else {
+            if ( $this->is_indy ){
+                Settings::get('slack_webhook_indy');
+            } else if ( $this->is_training) {
+                return Settings::get('slack_webhook_training');
+            } else {
+                return Settings::get('slack_webhook');
+            }
+        }
     }
 }

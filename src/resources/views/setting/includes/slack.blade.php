@@ -30,6 +30,20 @@
                 </div>
             </div>
 
+            <div class="form-group">
+                <label for="slack_webhook_indy" class="col-sm-3 control-label">{{ trans('calendar::seat.webhook_indy') }}</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" name="slack_webhook_indy" id="slack_webhook_indy" value="{{ $settings->slack_webhook_indy }}">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="slack_webhook_training" class="col-sm-3 control-label">{{ trans('calendar::seat.webhook_training') }}</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" name="slack_webhook_training" id="slack_webhook_training" value="{{ $settings->slack_webhook_training }}">
+                </div>
+            </div>
+
 			<p class="callout callout-info text-justify">
 				{{ trans('calendar::seat.help_emoji') }}
 			</p>
