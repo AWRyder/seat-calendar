@@ -47,7 +47,9 @@ class Helper
 
 		$fields[trans('calendar::seat.importance')] = self::ImportanceAsEmoji($op->importance, Settings::get('slack_emoji_importance_full'), Settings::get('slack_emoji_importance_half'), Settings::get('slack_emoji_importance_empty'));
 
-		$fields[trans('calendar::seat.fleet_commander')] = $op->fc ? $op->fc : trans('calendar::seat.unknown');
+        $fields[trans('calendar::seat.fleet_commander')] = $op->fc ? $op->fc : trans('calendar::seat.unknown');
+
+        $fields[trans('calendar::seat.description')] = $op->description;
 
 		return function ($attachment) use ($op, $url, $fields) {
 			$attachment->title($op->title, $url)
