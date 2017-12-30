@@ -51,7 +51,7 @@ class Helper
 
         $fields[trans('calendar::seat.description')] = $op->description;
 
-        $fields["SRVP"] = "Can you +1, not sure or -1 to this fleet, using the reactions.";
+        $fields["RSVP"] = "Can you +1, not sure or -1 to this fleet, using the reactions.";
 
 
 		return function ($attachment) use ($op, $url, $fields) {
