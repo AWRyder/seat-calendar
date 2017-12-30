@@ -33,7 +33,7 @@ class RemindOperation extends Command
 			foreach($ops as $op) 
 			{
 				if ($op->status == 'incoming') {
-					if(in_array($now->diffInMinutes($op->start_at, false), $this->marks) || $now->diffInMinutes($op->start_at, false) % 720 == 0 )
+					if(in_array($now->diffInMinutes($op->start_at, false), $this->marks) || $now->diffInMinutes($op->start_at, false) % 1440 == 0 )
 					{
 						Notification::send($op, new OperationPinged());
 					}

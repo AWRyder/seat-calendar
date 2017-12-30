@@ -47,8 +47,8 @@
       <file leaf-file-name="RemindOperation.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Commands/RemindOperation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+            <state relative-caret-position="408">
+              <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -838,7 +838,7 @@
       <workItem from="1505992042121" duration="47000" />
       <workItem from="1506256046553" duration="4359000" />
       <workItem from="1512918746667" duration="543000" />
-      <workItem from="1514663225734" duration="6929000" />
+      <workItem from="1514663225734" duration="6983000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'original/master'&#10;&#10;# Conflicts:&#10;#&#9;src/resources/views/operation/includes/modals/create_operation.blade.php&#10;#&#9;src/resources/views/operation/includes/modals/update_operation.blade.php">
       <created>1512919279845</created>
@@ -924,11 +924,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514676196118</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="pings every 24 h">
+      <created>1514676771988</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1514676771988</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15922000" />
+    <option name="totallyTimeSpent" value="15976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -977,7 +984,8 @@
     <MESSAGE value="fixed bug" />
     <MESSAGE value="added description" />
     <MESSAGE value="asd" />
-    <option name="LAST_COMMIT_MESSAGE" value="asd" />
+    <MESSAGE value="pings every 24 h" />
+    <option name="LAST_COMMIT_MESSAGE" value="pings every 24 h" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1359,8 +1367,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Commands/RemindOperation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="408">
+          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
           <folding />
         </state>
       </provider>
