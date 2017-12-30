@@ -51,10 +51,12 @@ class Helper
 
         $fields[trans('calendar::seat.description')] = $op->description;
 
+
+
 		return function ($attachment) use ($op, $url, $fields) {
 			$attachment->title($op->title, $url)
 			 	->fields($fields)
-			 	->footer(trans('calendar::seat.created_by') . ' ' . $op->user->name)
+			 	->footer(trans('calendar::seat.created_by') . ' ' . $op->user->name . ' Can you +1, not sure or -1 to this fleet, using the reactions?')
 			 	->markdown(['fields']);
 		};
 	}

@@ -87,8 +87,8 @@
       <file leaf-file-name="Helper.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Helpers/Helper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="63" column="40" lean-forward="true" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+            <state relative-caret-position="270">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -831,7 +831,7 @@
       <workItem from="1505992042121" duration="47000" />
       <workItem from="1506256046553" duration="4359000" />
       <workItem from="1512918746667" duration="543000" />
-      <workItem from="1514663225734" duration="5600000" />
+      <workItem from="1514663225734" duration="5969000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'original/master'&#10;&#10;# Conflicts:&#10;#&#9;src/resources/views/operation/includes/modals/create_operation.blade.php&#10;#&#9;src/resources/views/operation/includes/modals/update_operation.blade.php">
       <created>1512919279845</created>
@@ -861,11 +861,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514667554303</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added description">
+      <created>1514675436270</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1514675436270</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14593000" />
+    <option name="totallyTimeSpent" value="14962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -912,7 +919,8 @@
     <MESSAGE value="Added 2 new webhooks" />
     <MESSAGE value="added translations" />
     <MESSAGE value="fixed bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed bug" />
+    <MESSAGE value="added description" />
+    <option name="LAST_COMMIT_MESSAGE" value="added description" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1291,8 +1299,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Helpers/Helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="63" column="40" lean-forward="true" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+        <state relative-caret-position="270">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
