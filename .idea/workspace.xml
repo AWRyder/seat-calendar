@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b3313aee-803b-4e9e-b295-6f394fa1a6b6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Http/Controllers/OperationController.php" afterPath="$PROJECT_DIR$/src/Http/Controllers/OperationController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Http/Controllers/SettingController.php" afterPath="$PROJECT_DIR$/src/Http/Controllers/SettingController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Models/Operation.php" afterPath="$PROJECT_DIR$/src/Models/Operation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/views/operation/includes/modals/create_operation.blade.php" afterPath="$PROJECT_DIR$/src/resources/views/operation/includes/modals/create_operation.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/views/operation/includes/modals/update_operation.blade.php" afterPath="$PROJECT_DIR$/src/resources/views/operation/includes/modals/update_operation.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/views/setting/includes/slack.blade.php" afterPath="$PROJECT_DIR$/src/resources/views/setting/includes/slack.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/lang/en/seat.php" afterPath="$PROJECT_DIR$/src/resources/lang/en/seat.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,6 +14,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="seat.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resources/lang/en/seat.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="535">
+              <caret line="142" column="31" lean-forward="true" selection-start-line="142" selection-start-column="31" selection-end-line="142" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="OperationActivated.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Notifications/OperationActivated.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OperationController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OperationController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Http/Controllers/OperationController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
@@ -64,16 +69,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Helper.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Helpers/Helper.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="45" column="102" lean-forward="false" selection-start-line="45" selection-start-column="102" selection-end-line="45" selection-end-column="102" />
               <folding />
             </state>
           </provider>
@@ -160,7 +155,6 @@
         <option value="$PROJECT_DIR$/src/database/migrations/2017_02_01_093144_create_calendar_tables.php" />
         <option value="$PROJECT_DIR$/src/Models/Setting.php" />
         <option value="$PROJECT_DIR$/src/database/seeds/CalendarSettingsTableSeeder.php" />
-        <option value="$PROJECT_DIR$/src/resources/lang/en/seat.php" />
         <option value="$PROJECT_DIR$/src/Helpers/Helper.php" />
         <option value="$PROJECT_DIR$/src/Http/Controllers/SettingController.php" />
         <option value="$PROJECT_DIR$/src/resources/views/setting/includes/slack.blade.php" />
@@ -168,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/resources/views/operation/includes/modals/update_operation.blade.php" />
         <option value="$PROJECT_DIR$/src/Models/Operation.php" />
         <option value="$PROJECT_DIR$/src/Http/Controllers/OperationController.php" />
+        <option value="$PROJECT_DIR$/src/resources/lang/en/seat.php" />
       </list>
     </option>
   </component>
@@ -281,6 +276,21 @@
               <item name="seat-calendar" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seat-calendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seat-calendar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seat-calendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seat-calendar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="en" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seat-calendar" type="b2602c69:ProjectViewProjectNode" />
@@ -821,7 +831,7 @@
       <workItem from="1505992042121" duration="47000" />
       <workItem from="1506256046553" duration="4359000" />
       <workItem from="1512918746667" duration="543000" />
-      <workItem from="1514663225734" duration="2015000" />
+      <workItem from="1514663225734" duration="2366000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'original/master'&#10;&#10;# Conflicts:&#10;#&#9;src/resources/views/operation/includes/modals/create_operation.blade.php&#10;#&#9;src/resources/views/operation/includes/modals/update_operation.blade.php">
       <created>1512919279845</created>
@@ -830,11 +840,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512919279845</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added 2 new webhooks">
+      <created>1514665279967</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1514665279968</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11008000" />
+    <option name="totallyTimeSpent" value="11359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -878,7 +895,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge remote-tracking branch 'original/master'&#10;&#10;# Conflicts:&#10;#&#9;src/resources/views/operation/includes/modals/create_operation.blade.php&#10;#&#9;src/resources/views/operation/includes/modals/update_operation.blade.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'original/master'&#10;&#10;# Conflicts:&#10;#&#9;src/resources/views/operation/includes/modals/create_operation.blade.php&#10;#&#9;src/resources/views/operation/includes/modals/update_operation.blade.php" />
+    <MESSAGE value="Added 2 new webhooks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 2 new webhooks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1165,14 +1183,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/lang/en/seat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="96" column="16" lean-forward="false" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Observers/OperationObserver.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1257,6 +1267,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="176" column="44" lean-forward="true" selection-start-line="176" selection-start-column="44" selection-end-line="176" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/lang/en/seat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="142" column="31" lean-forward="true" selection-start-line="142" selection-start-column="31" selection-end-line="142" selection-end-column="31" />
           <folding />
         </state>
       </provider>

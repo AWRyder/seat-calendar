@@ -141,5 +141,9 @@ return [
     'direct_link' => 'Direct link',
 
     'is_public' => 'Is Public',
+    'is_indy' => 'Is Indy',
+    'is_training' => 'Is Training',
     'webhook_public' => 'Pub Webhook',
+    'webhook_indy' => 'Indy Webhook',
+    'webhook_training' => 'Training Webhook',
 ];
