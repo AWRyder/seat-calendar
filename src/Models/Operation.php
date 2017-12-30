@@ -153,7 +153,7 @@ class Operation extends Model
             return Settings::get('slack_webhook_public');
         } else {
             if ( $this->is_indy ){
-                Settings::get('slack_webhook_indy');
+                return Settings::get('slack_webhook_indy');
             } else if ( $this->is_training) {
                 return Settings::get('slack_webhook_training');
             } else {
